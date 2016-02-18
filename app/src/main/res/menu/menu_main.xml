@@ -1,0 +1,60 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rohit.courtcount.MainActivity"
+
+    >
+    <group
+        android:checkableBehavior="none"
+        android:menuCategory="alternative"
+
+        >
+        <item
+            android:showAsAction="never"
+            android:id="@+id/name_menu"
+            android:orderInCategory="1"
+
+            android:title="Name"/>
+        <item
+            android:showAsAction="never"
+            android:id="@+id/email_menu"
+            android:orderInCategory="2"
+            android:title="Email"/>
+        <item
+            android:showAsAction="never"
+            android:id="@+id/my_account_menu"
+            android:orderInCategory="3"
+            android:title="My Account"/>
+        <item
+            android:showAsAction="never"
+            android:id="@+id/offer_history_menu"
+            android:orderInCategory="4"
+            android:title="Offer History"/>
+        <item
+            android:showAsAction="never"
+            android:id="@+id/settings_menu"
+            android:orderInCategory="5"
+            android:title="Settings"/>
+        <item
+            android:showAsAction="never"
+            android:id="@+id/about_us_menu"
+            android:orderInCategory="6"
+            android:title="About Us"/>
+        <item
+            android:showAsAction="never"
+            android:id="@+id/privacy_policy_menu"
+            android:orderInCategory="7"
+            android:title="Privacy Policy"/>
+        <item
+            android:showAsAction="never"
+            android:id="@+id/report_menu"
+            android:orderInCategory="8"
+            android:title="Report"/>
+        <item
+            android:showAsAction="never"
+            android:id="@+id/back_up_data_menu"
+            android:orderInCategory="9"
+            android:title="Back Up Data"/>
+
+    </group>
+</menu>
